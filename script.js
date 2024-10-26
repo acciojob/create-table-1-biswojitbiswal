@@ -13,6 +13,6 @@ function insert_Row() {
 	row.appendChild(cell1);
     row.appendChild(cell2);
 
-	table.insertBefore(row, table.firstChild);
+	table.appendChild(row);
   
 }
